@@ -8,7 +8,7 @@ export class Letcode {
             pageObjects.getByName('name').type(el.name);
             pageObjects.getByName('email').type(el.email);
             pageObjects.getByName('password').type(el.password);
-            cy.get('.control > .button').click();
+           // cy.get('.control > .button').click();
             //cy.get("button[class='button is-primary']").click();
             //cy.get('[role="alertdialog"]').contains('Error: The email address is already in use by another account.');
             
